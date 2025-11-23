@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scales Dominator | Strategy Growth System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Three.js Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Scales Dominator</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#what-we-do">What We Do</a></li>
+                <li><a href="#growth">Growth</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="https://calendly.com/nixaavisionleads/30min?month=2025-11" target="_blank" rel="noopener noreferrer" class="nav-cta">Book A Call</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">Advertising/Marketing</div>
+            <h1 class="hero-title">
+                <span class="hero-line">Let's Grow Your Brand</span>
+                <span class="hero-line">Through Our <span class="text-gradient">7-Step System</span></span>
+            </h1>
+            <p class="hero-description">
+                We help Entrepreneurs, Coaches & Consultants build a powerful social media brand 
+                and get consistent clients via a proven 7-step growth strategy system.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">206</div>
+                    <div class="stat-label">Posts</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1,162</div>
+                    <div class="stat-label">Followers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">130+</div>
+                    <div class="stat-label">Brands Scaled</div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="https://calendly.com/nixaavisionleads/30min?month=2025-11" target="_blank" rel="noopener noreferrer" class="btn-primary btn-link">Book A Call</a>
+                <button class="btn-secondary">View Case Studies</button>
+            </div>
+            <div class="hero-social">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="what-we-do-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What We Do</h2>
+                <p class="section-subtitle">
+                    We skyrocket brands in less than 90 days. We've managed 24 crores in ad spend 
+                    for over 130+ brands. The one thing we've mastered is how to grow your business the fastest way.
+                </p>
+            </div>
+            
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <div class="capability-icon">📊</div>
+                    <h3>Performance Marketing</h3>
+                    <p>From deep competitive analysis to crafting ad campaigns for Meta, Google, Snapchat, 
+                    and TikTok, our experts know precisely how to scale your brand's revenue.</p>
+                </div>
+                
+                <div class="capability-card">
+                    <div class="capability-icon">🎯</div>
+                    <h3>Brand Strategy</h3>
+                    <p>Without a proper strategy, running ads is just a waste of money. That's why our first 
+                    goal is to create a brand strategy that resonates with your vision.</p>
+                </div>
+                
+                <div class="capability-card">
+                    <div class="capability-icon">💻</div>
+                    <h3>Website Development</h3>
+                    <p>After building 90+ websites on Shopify and WordPress, we've cracked the code for building 
+                    high-converting, elegant websites in less than 20 days.</p>
+                </div>
+                
+                <div class="capability-card">
+                    <div class="capability-icon">🎬</div>
+                    <h3>Content Creation</h3>
+                    <p>UGC videos are the future of marketing, and we ensure you don't need to look elsewhere 
+                    for curating high-converting videos guaranteed to boost your brand.</p>
+                </div>
+                
+                <div class="capability-card">
+                    <div class="capability-icon">📱</div>
+                    <h3>Social Media Management</h3>
+                    <p>Amplify your brand's presence with our expert social media management. We create engaging 
+                    content, foster community growth, and drive meaningful interactions.</p>
+                </div>
+                
+                <div class="capability-card">
+                    <div class="capability-icon">🚀</div>
+                    <h3>Growth Automation</h3>
+                    <p>Build systems that work while you sleep. We automate your marketing, sales, and lead 
+                    generation to create predictable, scalable growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Numbers Section -->
+    <section id="growth" class="numbers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Core Numbers</h2>
+                <p class="section-subtitle">
+                    Dive into our agency's core numbers - that mirror our dedication, creativity, 
+                    and pursuit of excellence in the digital marketing space
+                </p>
+            </div>
+            
+            <div class="numbers-grid">
+                <div class="number-card">
+                    <div class="number-value">130+</div>
+                    <div class="number-label">Satisfied Clients</div>
+                </div>
+                <div class="number-card">
+                    <div class="number-value">40%</div>
+                    <div class="number-label">Client Referrals</div>
+                </div>
+                <div class="number-card">
+                    <div class="number-value">7.3x</div>
+                    <div class="number-label">Average ROAS</div>
+                </div>
+                <div class="number-card">
+                    <div class="number-value">24Cr+</div>
+                    <div class="number-label">Ad Spend Managed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container-full">
+            <div class="section-header">
+                <h2 class="section-title">Our Portfolio of Success</h2>
+                <p class="section-subtitle">Trusted by leading brands across industries</p>
+            </div>
+            
+            <div class="portfolio-marquee">
+                <div class="marquee-content">
+                    <div class="portfolio-item">Zareef Jewellery</div>
+                    <div class="portfolio-item">Leather Charm</div>
+                    <div class="portfolio-item">Teeside Store</div>
+                    <div class="portfolio-item">Indus Gems</div>
+                    <div class="portfolio-item">Lemonaed</div>
+                    <div class="portfolio-item">Triple Whale</div>
+                    <div class="portfolio-item">WOLFIT</div>
+                    <div class="portfolio-item">KARATCART</div>
+                    <div class="portfolio-item">Violet & Purple</div>
+                    <div class="portfolio-item">Toony Port</div>
+                    <div class="portfolio-item">Crystalicious</div>
+                    <div class="portfolio-item">Label Numaani</div>
+                    <div class="portfolio-item">CUIRMAVEN</div>
+                    <div class="portfolio-item">Bonafied</div>
+                    <div class="portfolio-item">KAIN</div>
+                    <div class="portfolio-item">Kaladhar</div>
+                    <div class="portfolio-item">ELAWEAR</div>
+                    <div class="portfolio-item">Clubloom</div>
+                </div>
+                <div class="marquee-content">
+                    <div class="portfolio-item">Zareef Jewellery</div>
+                    <div class="portfolio-item">Leather Charm</div>
+                    <div class="portfolio-item">Teeside Store</div>
+                    <div class="portfolio-item">Indus Gems</div>
+                    <div class="portfolio-item">Lemonaed</div>
+                    <div class="portfolio-item">Triple Whale</div>
+                    <div class="portfolio-item">WOLFIT</div>
+                    <div class="portfolio-item">KARATCART</div>
+                    <div class="portfolio-item">Violet & Purple</div>
+                    <div class="portfolio-item">Toony Port</div>
+                    <div class="portfolio-item">Crystalicious</div>
+                    <div class="portfolio-item">Label Numaani</div>
+                    <div class="portfolio-item">CUIRMAVEN</div>
+                    <div class="portfolio-item">Bonafied</div>
+                    <div class="portfolio-item">KAIN</div>
+                    <div class="portfolio-item">Kaladhar</div>
+                    <div class="portfolio-item">ELAWEAR</div>
+                    <div class="portfolio-item">Clubloom</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Why Scales Dominator?</h2>
+                    <p class="about-text">
+                        We build your dream brand. Our services aim to boost your business revenue, 
+                        surpassing 98% of the competition and transforming brands into exclusive, 
+                        in-demand labels through profitable scaling strategies.
+                    </p>
+                    
+                    <div class="why-us-list">
+                        <div class="why-item">
+                            <div class="why-icon">✓</div>
+                            <div class="why-content">
+                                <h3>Results are assured</h3>
+                                <p>With our proven expertise in brand growth and a database of over 15 million 
+                                high-end shoppers, selling your product is guaranteed with clear results.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-item">
+                            <div class="why-icon">✓</div>
+                            <div class="why-content">
+                                <h3>No contracts & agreements</h3>
+                                <p>Our commitment to your business growth is backed by our confidence, 
+                                demonstrated through zero contracts or agreements.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-item">
+                            <div class="why-icon">✓</div>
+                            <div class="why-content">
+                                <h3>Dynamic team of professionals</h3>
+                                <p>A team from diverse creative backgrounds delivers unique and impactful 
+                                marketing strategies tailored to drive growth and success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">🎯</div>
+                        <div class="card-text">7-Step System</div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">📈</div>
+                        <div class="card-text">Proven Growth</div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-text">Fast Results</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Reviews</h2>
+                <div class="rating-header">
+                    <span class="rating-score">5.0</span>
+                    <span class="rating-stars">★★★★★</span>
+                </div>
+                <p class="section-subtitle">
+                    Their words are a testament to our commitment to excellence and our ability 
+                    to bring their visions to life.
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <div class="client-avatar">MG</div>
+                            <div>
+                                <div class="client-name-modern">Manvi Goel</div>
+                                <div class="client-company">@thnwhn</div>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text-modern">
+                        "It's been two months since we started working with Scales Dominator. 
+                        What's great is that they understand the market and plan strategies accordingly. 
+                        We have seen an improvement in our returns, and I believe it will only go up from here."
+                    </p>
+                </div>
+                
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <div class="client-avatar">N</div>
+                            <div>
+                                <div class="client-name-modern">Nomik</div>
+                                <div class="client-company">@ourdve</div>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text-modern">
+                        "Scales Dominator is a team which believes personal approach and really values their client. 
+                        They're helpful and always ready with new ideas. We enhanced our business performance 
+                        after working with them."
+                    </p>
+                </div>
+                
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <div class="client-avatar">MB</div>
+                            <div>
+                                <div class="client-name-modern">Madhuri Bansal</div>
+                                <div class="client-company">@Luxchange</div>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text-modern">
+                        "We embarked on this journey roughly 6 months ago, and there has been no looking back. 
+                        The technical understanding and hand-holding that the team offers has been unparalleled 
+                        and game-changing for our business."
+                    </p>
+                </div>
+                
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <div class="client-avatar">NP</div>
+                            <div>
+                                <div class="client-name-modern">Neha Pawar</div>
+                                <div class="client-company">@Beige Couture</div>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text-modern">
+                        "We were confused before starting but now after being with them for 9 months, 
+                        it was one of the best decisions. Their attention to detail and ability to understand 
+                        my brand's unique voice have made them a valuable partner."
+                    </p>
+                </div>
+                
+                <div class="testimonial-card-modern">
+                    <div class="testimonial-header">
+                        <div class="client-info">
+                            <div class="client-avatar">R</div>
+                            <div>
+                                <div class="client-name-modern">Raghav</div>
+                                <div class="client-company">@Indusgems</div>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <p class="testimonial-text-modern">
+                        "Really thanks to you, we are touching a sale of 5 Lacs in less than 87 days 
+                        after starting a new brand. Honestly I was expecting 4 months, but you guys did it 
+                        before your given range even!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Scale Your Brand?</h2>
+                <p class="cta-description">
+                    Join 130+ successful brands who transformed their business with our proven 7-step system. 
+                    No contracts. No commitments. Just results.
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://calendly.com/nixaavisionleads/30min?month=2025-11" target="_blank" rel="noopener noreferrer" class="btn-primary btn-large btn-link">Book A Free Call</a>
+                    <button class="btn-secondary btn-large">View Case Studies</button>
+                </div>
+                <div class="cta-contact">
+                    <a href="tel:+919226198528" class="contact-link">
+                        <span class="contact-icon">📞</span>
+                        +91-92261 98528
+                    </a>
+                    <a href="mailto:contact@scalesdominator.com" class="contact-link">
+                        <span class="contact-icon">✉️</span>
+                        contact@scalesdominator.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-logo">Scales Dominator</h3>
+                    <p class="footer-description">
+                        A dynamic team of professionals delivering unique and impactful 
+                        marketing strategies tailored to drive growth and success.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">LinkedIn</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Performance Marketing</a></li>
+                        <li><a href="#">Brand Strategy</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Content Creation</a></li>
+                        <li><a href="#">Social Media Management</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+919226198528">+91-92261 98528</a></li>
+                        <li><a href="mailto:contact@scalesdominator.com">contact@scalesdominator.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Scales Dominator. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cancellation & Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
